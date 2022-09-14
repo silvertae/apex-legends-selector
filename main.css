@@ -80,7 +80,6 @@ body {
 .container .legends .legend:nth-child(10) .image {
 	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bangalore.png.adapt.crop16x9.png');
 }
-
 .container .legends .legend:nth-child(11) .image {
 	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2022/07/apex-grid-tile-legends-vantage.png.adapt.crop16x9.png');
 }
@@ -111,7 +110,6 @@ body {
 .container .legends .legend:nth-child(20) .image {
 	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-pathfinder.png.adapt.crop16x9.png');
 }
-
 .container .legends .legend:nth-child(21) .image {
 	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/01/apex-grid-tile-legends-fuse.png.adapt.crop16x9.png');
 }
