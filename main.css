@@ -1,0 +1,128 @@
+body {
+	height: 100vh;
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/common/apex-section-bg-red-grit-texture-xl.jpg.adapt.1920w.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* Choose your legends! */
+.message {
+	text-align: center;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 1.4;
+	font-family: Apex, Arial, Helvetica, sans-serif;
+	margin: 50px;
+	margin-bottom: 0;
+	color: #fff;
+}
+/* legends selector */
+.container {
+}
+.container .legends {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+.container .legends .legend {
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-color: #555;
+	overflow: hidden;
+	transition: transform 0.2s, background-color 0.5s;
+}
+.container .legends .legend:hover {
+	background-color: #ff6347;
+	transform: scale(1.3);
+	z-index: 1;
+}
+.container .legends .legend .image {
+	width: 100%;
+	height: 140%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 300px;
+}
+.container .legends .legend:nth-child(1) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2022/05/apex-grid-tile-legends-newcastle.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(2) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-lifeline.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(3) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/08/rampart/apex-grid-tile-legends-rampart.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(4) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/02/apex-legend-revenant-grid-tile.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(5) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-wraith.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(6) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/05/apex-grid-tile-legends-loba.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(7) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2022/01/apex-grid-tile-legends-maggie.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(8) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-mirage.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(9) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/04/apex-grid-tile-legends-valkyrie.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(10) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bangalore.png.adapt.crop16x9.png');
+}
+
+.container .legends .legend:nth-child(11) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2022/07/apex-grid-tile-legends-vantage.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(12) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bloodhound.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(13) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/07/seer-assets/apex-grid-tile-legends-seer.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(14) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-ash.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(15) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-octane.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(16) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-wattson.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(17) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-gibraltar.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(18) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-caustic.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(19) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-crypto.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(20) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-pathfinder.png.adapt.crop16x9.png');
+}
+
+.container .legends .legend:nth-child(21) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/01/apex-grid-tile-legends-fuse.png.adapt.crop16x9.png');
+}
+.container .legends .legend:nth-child(22) .image {
+	background-image: url('https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/10/horizon/apex-grid-tile-legends-horizon.png.adapt.crop16x9.png');
+}
+/* logo */
+.container .logo {
+	max-width: 500px;
+	margin: -100px auto 0;
+}
+.container .logo img {
+	width: 100%;
+}
